@@ -1,7 +1,6 @@
 # Exercice 1
 # utiliser un appel système comme write
 
- - `t0` <- 5
 
 # On indique qu'on souhaite ranger des données dans le segment de data.
 .data
@@ -23,3 +22,7 @@ li a7, 4 # appel systeme 4 selon la doc de Rars printString
 ecall # Peret de basculer en mode kernel pour faire l'appel systeme.
 
 # Bonus: Afficher maintenant un nombre, vous aurrez besoin de la documentation.
+li a0, 42
+li a7, 1
+ecall
+
