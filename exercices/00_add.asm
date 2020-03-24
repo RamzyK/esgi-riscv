@@ -12,3 +12,5 @@ li   t0, 32
 addi t0, t0, 0
 
 # Bonus: avoir 64 dans un registre en une seule instruction
+suite_mon_code: 
+li   t0, 64
